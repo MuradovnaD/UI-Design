@@ -1,0 +1,212 @@
+
+/* Header start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bggradient{
+    height: 100vh;
+    background: rgb(55,55,203);
+    background: linear-gradient(90deg, rgba(55,55,203,1) 6%, rgba(160,25,226,1) 52%, rgba(160,25,226,1) 79%, rgba(232,113,231,1) 100%);
+   
+}
+img{
+    width: 500px;
+}
+.nav_li{
+    padding: 0 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: all  0.5s;
+    background: transparent;
+}
+.nav_li:hover{
+    background-color:rgba(232,113,231,1) ;
+    border-radius: 15px;
+}
+.nav_h1{
+    font-size: 95px;
+    color: rgba(232,113,231,1);
+    font-weight: 600;
+}
+.header_p{
+    color: whitesmoke;
+}
+.with_border{
+    border: 1px solid whitesmoke;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 9px;
+    transition: all 0.5s;
+}
+.with_border:hover{
+    background-color: rgba(232,113,231,1);
+    border-radius: 10px;
+    
+}
+
+
+
+
+/* Main start */
+.grey{
+    color: grey;
+    margin-left: 480px;
+    padding-top: 40px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.horizontal_row{
+border-bottom: 1px solid grey;
+width: 200px;
+margin: 0 auto;
+}
+.company{
+    background-color: rgba(214, 209, 209, 0.567);
+    height: 180px;
+    padding-top: 40px;
+}
+.company_logos{
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.algolia{
+    width: 150px;
+    height: 40px;
+}
+.lapa{
+    height: 40px;
+    width: 140px;
+}
+.hugo{
+    width: 120px;
+    height: 35px;
+}
+.code{
+    width: 150px;
+    height: 40px;
+}
+.aws{
+    width: 90px ;
+    height: 40px;
+}
+.stripe{
+    width: 100px;
+    height: 40px;
+}
+.what_we_do{
+    margin: 0 auto;
+    width: 85%;
+    padding: 40px 10px;
+}
+.grey2{
+    color: grey;
+    margin-left: 410px;
+    padding-top: 40px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.horizontal_row2{
+    border-bottom: 1px solid grey;
+    width: 100px;
+    margin: 0 auto;
+}
+.work{
+    padding-top: 30px;
+}
+.fa-solid {
+  font-size: 30px;
+  padding-left: 200px;
+}
+.work_p{
+   text-align: center;
+   font-size: 15px;
+}
+h5{
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    color: blueviolet;
+    padding-left: 170px;
+    font-size: 15px;
+}
+
+.how_we_work{
+    background: rgb(11,14,210);
+    background: linear-gradient(90deg, rgba(11,14,210,1) 10%, rgba(64,6,195,1) 64%);
+    height: 700px;
+    padding-top: 40px;
+}
+.grey3{
+    color: grey;
+    margin-left: 520px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.horizontal_row3{
+    border-bottom: 1px solid grey;
+    width: 100px;
+    margin: 0 auto;
+}
+.howWeWork_h1{
+    padding: 40px 0;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+.for_h1{
+    width: 60%;
+    margin: 0 auto;
+}
+.box{
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    transition:all 0.3s;
+}
+.box:hover{
+    box-shadow: 0 0 30px 10px rgba(232,113,231,1) ;
+}
+.horizontal_row_box{
+    border-bottom: 1px solid rgba(106, 104, 104, 0.57);
+    width: 250px;
+    margin: 0 auto;
+}
+.cource{
+    text-align: center;
+    font-weight:700;
+    font-size: 15px;
+}
+.other_color{
+    color: rgba(232,113,231,1);
+}
+.price{
+    font-weight: 700;
+    padding-top: 20px;
+    display: inline-block;
+}
+.about_cource{
+    text-align: center;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    margin-left: 40px;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+}
